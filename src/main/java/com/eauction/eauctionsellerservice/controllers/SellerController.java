@@ -95,11 +95,4 @@ public class SellerController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-
-
-
-    /*@GetMapping(value = "/hello")
-    public String sayHi() {
-        return "Hi";
-    }*/
 }
