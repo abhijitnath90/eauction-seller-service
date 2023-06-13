@@ -19,6 +19,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/e-auction/api/v1/seller")
+@CrossOrigin(origins = "*")
 public class SellerController {
 
     @Autowired
